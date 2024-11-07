@@ -1,0 +1,133 @@
+@import url("https://use.typekit.net/xol3rtp.css");
+@import url("https://use.typekit.net/xol3rtp.css");
+
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+main,
+body {
+  margin: 0;
+}
+
+body {
+  background-color: ivory;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  font-family: "ice-cream-standard", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #125872;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+img {
+  width: 100%;
+}
+
+header img {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  overflow-y: hidden;
+}
+
+.welkom {
+  background-image: url(images/bloem.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  height: 705px;
+  padding-left: 1em;
+  padding-top: 10em;
+  padding-right: 1em;
+}
+
+.activiteiten {
+  background-image: url(images/blad-rechts.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  height: 548px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.ruimte {
+  background-image: url(images/blad-rechts.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  height: 548px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.space {
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  height: 68px;
+}
+
+.over-ons {
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  height: 270px;
+}
+
+.contact {
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  height: 270px;
+}
+
+footer {
+  background-image: url(images/aarde.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: local;
+  height: 827.5px;
+  color: ivory;
+  padding-left: 1em;
+  padding-top: 2em;
+  padding-right: 1em;
+}
+
+a {
+  color: ivory;
+  text-align: center;
+  padding-left: 3em;
+}
+
+h1,
+h2 {
+  font-family: "new-kansas", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #063a4e;
+}
+
+footer h2 {
+  font-family: "new-kansas", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color: white;
+}
+main p {
+  background-color: rgba(223, 238, 235, 0.5);
+  border-radius: 5%;
+}
